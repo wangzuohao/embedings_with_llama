@@ -1,10 +1,11 @@
+# Import necessary packages
 from flask import Flask, render_template, request
 from llama_index import GPTSimpleVectorIndex
 import os
 
 app = Flask(__name__)
 
-# Please setup the env for OpenAI API key
+# Please setup the env for OpenAI API key with the following command in Linux
 # export OPENAI_API_KEY='sk-xxxxxxxxx'
 
 # Load the index from index.json
