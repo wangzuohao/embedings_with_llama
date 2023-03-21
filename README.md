@@ -1,2 +1,5 @@
 # embedings_with_llama
- This is a test
+Pre requirement:
+You have to install:
+pip install llama-index
+pip install openai
